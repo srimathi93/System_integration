@@ -5,7 +5,7 @@ The project focuses on integrating different parts of the Car using ROS. We focu
 
 The architecture of the car system is as shown below.
 
-![./ros-architecture.png]
+![](./ros-architecture.png)
 
 It has a perception, planning and control module. The interaction and the message architecture are shown in the picture. 
 
@@ -44,3 +44,4 @@ The TL detector node subscribes to the base_waypoints, current_pose, traffic_lig
 The image_cb detects if the light is red or green from camera images.
 
 The video of the final car drive is below:
+[video](./Red_light.mov)
